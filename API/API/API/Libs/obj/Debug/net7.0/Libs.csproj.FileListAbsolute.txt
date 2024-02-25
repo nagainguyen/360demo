@@ -1,0 +1,126 @@
+C:\Users\user\OneDrive\Desktop\API\Libs\bin\Debug\net7.0\Libs.deps.json
+C:\Users\user\OneDrive\Desktop\API\Libs\bin\Debug\net7.0\Libs.runtimeconfig.json
+C:\Users\user\OneDrive\Desktop\API\Libs\bin\Debug\net7.0\Libs.dll
+C:\Users\user\OneDrive\Desktop\API\Libs\bin\Debug\net7.0\Libs.pdb
+C:\Users\user\OneDrive\Desktop\API\Libs\obj\Debug\net7.0\Libs.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Desktop\API\Libs\obj\Debug\net7.0\Libs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Desktop\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Desktop\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfo.cs
+C:\Users\user\OneDrive\Desktop\API\Libs\obj\Debug\net7.0\Libs.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\API\Libs\obj\Debug\net7.0\Libs.dll
+C:\Users\user\OneDrive\Desktop\API\Libs\obj\Debug\net7.0\refint\Libs.dll
+C:\Users\user\OneDrive\Desktop\API\Libs\obj\Debug\net7.0\Libs.pdb
+C:\Users\user\OneDrive\Desktop\API\Libs\obj\Debug\net7.0\Libs.genruntimeconfig.cache
+C:\Users\user\OneDrive\Desktop\API\Libs\obj\Debug\net7.0\ref\Libs.dll
+C:\Users\nguye\Downloads\API (4)\API\Libs\bin\Debug\net7.0\Libs.deps.json
+C:\Users\nguye\Downloads\API (4)\API\Libs\bin\Debug\net7.0\Libs.runtimeconfig.json
+C:\Users\nguye\Downloads\API (4)\API\Libs\bin\Debug\net7.0\Libs.dll
+C:\Users\nguye\Downloads\API (4)\API\Libs\bin\Debug\net7.0\Libs.pdb
+C:\Users\nguye\Downloads\API (4)\API\Libs\obj\Debug\net7.0\Libs.csproj.AssemblyReference.cache
+C:\Users\nguye\Downloads\API (4)\API\Libs\obj\Debug\net7.0\Libs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\Downloads\API (4)\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfoInputs.cache
+C:\Users\nguye\Downloads\API (4)\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfo.cs
+C:\Users\nguye\Downloads\API (4)\API\Libs\obj\Debug\net7.0\Libs.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\API (4)\API\Libs\obj\Debug\net7.0\Libs.dll
+C:\Users\nguye\Downloads\API (4)\API\Libs\obj\Debug\net7.0\refint\Libs.dll
+C:\Users\nguye\Downloads\API (4)\API\Libs\obj\Debug\net7.0\Libs.pdb
+C:\Users\nguye\Downloads\API (4)\API\Libs\obj\Debug\net7.0\Libs.genruntimeconfig.cache
+C:\Users\nguye\Downloads\API (4)\API\Libs\obj\Debug\net7.0\ref\Libs.dll
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\bin\Debug\net7.0\Libs.deps.json
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\bin\Debug\net7.0\Libs.runtimeconfig.json
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\bin\Debug\net7.0\Libs.dll
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\bin\Debug\net7.0\Libs.pdb
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfo.cs
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.dll
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\obj\Debug\net7.0\refint\Libs.dll
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.pdb
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.genruntimeconfig.cache
+C:\Users\user\OneDrive\Desktop\API_4\API (4)\API\Libs\obj\Debug\net7.0\ref\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\bin\Debug\net7.0\Libs.deps.json
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\bin\Debug\net7.0\Libs.runtimeconfig.json
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\bin\Debug\net7.0\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\bin\Debug\net7.0\Libs.pdb
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.csproj.AssemblyReference.cache
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfoInputs.cache
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfo.cs
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.csproj.CoreCompileInputs.cache
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\obj\Debug\net7.0\refint\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.pdb
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.genruntimeconfig.cache
+C:\Users\lu456\OneDrive\Máy tính\API_4\API (4)\API\Libs\obj\Debug\net7.0\ref\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\bin\Debug\net7.0\Libs.deps.json
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\bin\Debug\net7.0\Libs.runtimeconfig.json
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\bin\Debug\net7.0\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\bin\Debug\net7.0\Libs.pdb
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.csproj.AssemblyReference.cache
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfoInputs.cache
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfo.cs
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.csproj.CoreCompileInputs.cache
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\obj\Debug\net7.0\refint\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.pdb
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\obj\Debug\net7.0\Libs.genruntimeconfig.cache
+C:\Users\lu456\OneDrive\Máy tính\API_4 (3)\API_4\API (4)\API\Libs\obj\Debug\net7.0\ref\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\bin\Debug\net7.0\Libs.deps.json
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\bin\Debug\net7.0\Libs.runtimeconfig.json
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\bin\Debug\net7.0\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\bin\Debug\net7.0\Libs.pdb
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\obj\Debug\net7.0\Libs.csproj.AssemblyReference.cache
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\obj\Debug\net7.0\Libs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfoInputs.cache
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfo.cs
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\obj\Debug\net7.0\Libs.csproj.CoreCompileInputs.cache
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\obj\Debug\net7.0\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\obj\Debug\net7.0\refint\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\obj\Debug\net7.0\Libs.pdb
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\obj\Debug\net7.0\Libs.genruntimeconfig.cache
+C:\Users\lu456\OneDrive\Máy tính\API\API\API\API\Libs\obj\Debug\net7.0\ref\Libs.dll
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\bin\Debug\net7.0\Libs.deps.json
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\bin\Debug\net7.0\Libs.runtimeconfig.json
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\bin\Debug\net7.0\Libs.dll
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\bin\Debug\net7.0\Libs.pdb
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\obj\Debug\net7.0\Libs.csproj.AssemblyReference.cache
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\obj\Debug\net7.0\Libs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfoInputs.cache
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfo.cs
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\obj\Debug\net7.0\Libs.csproj.CoreCompileInputs.cache
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\obj\Debug\net7.0\Libs.dll
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\obj\Debug\net7.0\refint\Libs.dll
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\obj\Debug\net7.0\Libs.pdb
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\obj\Debug\net7.0\Libs.genruntimeconfig.cache
+C:\Users\nguyn\OneDrive\Documents\API (2)\API\API\API\API\Libs\obj\Debug\net7.0\ref\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\bin\Debug\net7.0\Libs.deps.json
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\bin\Debug\net7.0\Libs.runtimeconfig.json
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\bin\Debug\net7.0\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\bin\Debug\net7.0\Libs.pdb
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.csproj.AssemblyReference.cache
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfoInputs.cache
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfo.cs
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.csproj.CoreCompileInputs.cache
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\obj\Debug\net7.0\refint\Libs.dll
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.pdb
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.genruntimeconfig.cache
+C:\Users\lu456\OneDrive\Máy tính\API (1)\API\API\API\Libs\obj\Debug\net7.0\ref\Libs.dll
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\bin\Debug\net7.0\Libs.deps.json
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\bin\Debug\net7.0\Libs.runtimeconfig.json
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\bin\Debug\net7.0\Libs.dll
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\bin\Debug\net7.0\Libs.pdb
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.csproj.AssemblyReference.cache
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfoInputs.cache
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.AssemblyInfo.cs
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.csproj.CoreCompileInputs.cache
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.dll
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\obj\Debug\net7.0\refint\Libs.dll
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.pdb
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\obj\Debug\net7.0\Libs.genruntimeconfig.cache
+C:\Users\nguyn\Downloads\API (1)\API\API\API\Libs\obj\Debug\net7.0\ref\Libs.dll

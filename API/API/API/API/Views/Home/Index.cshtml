@@ -1,0 +1,173 @@
+﻿@{
+    ViewData["Title"] = "Hutech View";
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="~/css/Style.css" />
+<style>
+    body {
+        background-color: #e1e8f2;
+        font-family: 'Arial', sans-serif;
+    }
+
+    header {
+        background-color: #e1e8f2;
+        padding: 15px 0;
+        box-shadow: 0 4px 2px -2px gray;
+    }
+
+    .navbar {
+        background-color: #e1e8f2;
+    }
+
+    .footer {
+        padding: 1rem 0;
+        background-color: #e1e8f2;
+    }
+
+    #panorama-container {
+        width: 1200px;
+        height: 670px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #controls {
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 3px;
+    }
+
+    .ctrl {
+        padding: 8px 5px;
+        width: 30px;
+        text-align: center;
+        background: #e5d8e8;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+        .ctrl:hover {
+            background: rgba(33, 150, 243, 0.8);
+        }
+</style>
+
+
+
+<div class="jumbotron" style="background-color: #e1e8f2">
+    <br /> 
+    <p class="lead" style="font-family: 'Times New Roman', Times, serif; font-size: 27px; background-color: #e1e8f2" >Hình ảnh 360° </p>
+</div>
+
+<div class="container">
+    <div id="panorama-container">
+        <div id="controls">
+            <div class="ctrl" id="custom-pan-up">&#9650;</div>
+            <div class="ctrl" id="custom-pan-down">&#9660;</div>
+            <div class="ctrl" id="custom-pan-left">&#9664;</div>
+            <div class="ctrl" id="custom-pan-right">&#9654;</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        fetch('/api/Images/GetAllScenesWithHotSpots')
+            .then(function (response) {
+                if (response.status !== 200) {
+                    console.log('Lỗi, mã lỗi ' + response.status);
+                    return;
+                }
+
+                response.json().then(result1 => {
+                    let apiData = result1.data;
+                    console.log(apiData);
+
+                    const firstScene = apiData[0].name;
+                    const scenes = {};
+                    for (const data of apiData) {
+                        const hotSpots = [];
+
+                        for (const h of data.hotSpots) {
+                            hotSpots.push({
+                                "pitch": h.pitch,
+                                "yaw": h.yaw,
+                                "type": "scene",
+                                "text": h.text,
+                                "sceneId": h.nameNextScene
+                            });
+                        }
+                        const scene = {
+                            "title": data.title,
+                            "hfov": 110,
+                            "pitch": data.pitch,
+                            "yaw": data.yaw,
+                            "type": "equirectangular",
+                            "panorama": data.linkImage,
+                            "hotSpots": hotSpots
+                        }
+                        scenes[data.name] = scene;
+                    }
+                    const dataScenes = {
+                        "default": {
+                            "firstScene": firstScene,
+                            "author": "MDT",
+                            "sceneFadeDuration": 1000,
+                            "autoLoad": true,
+                            "compass": true,
+                            "northOffset": 247.5
+                        },
+                        "scenes": scenes
+                    };
+                    console.log(dataScenes);
+                    dataScenes.default.autoRotate = -3;
+                    displayPannellum(dataScenes);
+                })
+            })
+            .catch(err => {
+                console.log('Error :-S', err)
+            });
+
+        function displayPannellum(dataScenes) {
+            const viewer = pannellum.viewer('panorama-container', dataScenes);
+
+            document.getElementById('custom-pan-up').addEventListener('click', function (e) {
+                viewer.setPitch(viewer.getPitch() + 10);
+            });
+            document.getElementById('custom-pan-down').addEventListener('click', function (e) {
+                viewer.setPitch(viewer.getPitch() - 10);
+            });
+            document.getElementById('custom-pan-left').addEventListener('click', function (e) {
+                viewer.setYaw(viewer.getYaw() - 10);
+            });
+            document.getElementById('custom-pan-right').addEventListener('click', function (e) {
+                viewer.setYaw(viewer.getYaw() + 10);
+            });
+
+            viewer.getContainer().addEventListener('mousedown', function (e) {
+
+                var mouseX = e.clientX;
+                var mouseY = e.clientY;
+
+                var panoramaWidth = viewer.getContainer().clientWidth;
+                var panoramaHeight = viewer.getContainer().clientHeight;
+
+                var pitch = (mouseY / panoramaHeight) * 180 - 90;
+                var yaw = (mouseX / panoramaWidth) * 360 - 180;
+
+                console.log('Mouse Click - Pitch: ' + pitch.toFixed(2) + ', Yaw: ' + yaw.toFixed(2));
+
+
+            });
+        }
+    });
+
+
+</script>
+
+

@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Đăng nhập vào Tài khoản";
+    Layout = "~/Views/Shared/ViewLogins.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="center" style="font-family: Arial, Helvetica, sans-serif">
+    <h1>ĐĂNG NHẬP</h1>
+    <form id="tableLogin">
+        <div class="txt_field">
+            <input type="text" id="Input_TaiKhoan" name="TaiKhoan" required>
+            <span></span>
+            <label for="Input_TaiKhoan" style="color: #f5a171">Tài khoản</label>
+        </div>
+        <div class="txt_field">
+            <input type="password" id="Input_Password" name="MatKhau" required>
+            <span></span>
+            <label for="Input_Password" style="color: #f5a171">Mật khẩu</label>
+        </div>
+        <input type="submit" value="Đăng nhập">
+        <div class="signup_link">
+            <a href="/" style="font-size: 14px; font-weight: bold">Trở lại trang chủ</a>
+        </div>
+    </form>
+</div>
+
+<script>
+    document.getElementById('tableLogin').addEventListener('submit', function (e) {
+        e.preventDefault(); // Ngăn chặn việc submit form mặc định
+
+        const url = '/api/Accounts/dangNhapTaiKhoan';
+        // Lấy dữ liệu từ các trường input
+        const taiKhoan = document.getElementById('Input_TaiKhoan').value;
+        const matKhau = document.getElementById('Input_Password').value;
+
+        // Gửi dữ liệu lên server
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                taikhoan: taiKhoan,
+                matkhau: matKhau,
+            }),
+        })
+            .then(response => {
+                if (response.ok) {
+                    localStorage.setItem('isLoggded', 1);
+                    window.location.href = '/Home/index'; // Chuyển hướng về trang chủ
+                } else {
+                    localStorage.setItem('isLoggded', 0);
+                    alert('Tài khoản hoặc Mật khẩu đã sai!');
+                    // Hiển thị thông báo lỗi cho người dùng nếu cần
+                }
+            })
+            .catch(error => {
+                // Xử lý lỗi khi gọi API đăng nhập
+                console.error('Lỗi khi gọi API đăng nhập: ', error);
+                // Hiển thị thông báo lỗi cho người dùng
+            });
+    });
+</script>

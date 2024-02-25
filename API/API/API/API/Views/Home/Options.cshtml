@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "Quản lý dữ liệu";
+}
+<br />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUẢN LÝ HÌNH ẢNH </title>
+    <link rel="stylesheet" type="text/css" href="~/css/Styles_options.css" />
+    <base href="/">
+    <style>
+        button {
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+            border: none;
+            border-radius: 10px;
+        }
+
+            button:hover {
+                background-color: #008CBA;
+                color: white;
+                transform: scale(1.1);
+            }
+
+        h1 {
+            font-size: 27px;
+            font-family: Arial;
+            color: black;
+        }
+        #editTable {
+            display: none;
+        }</style>
+</head>
+<body>
+    <h1>QUẢN LÝ HÌNH ẢNH</h1>
+    <form id="addDataForm">
+        <label for="nameInput">Tên hình ảnh</label>
+        <input type="text" id="nameInput" required>
+
+        <label for="idImageInput">Tiêu đề</label>
+        <input type="text" id="idImageInput" required>
+
+        <label for="linkImageInput">Đường dẫn của hình ảnh </label>
+        <input type="text" id="linkImageInput" required>
+
+        <label for="pitchInput">Chiều dọc (Pitch)</label>
+        <input type="number" step="0.1" id="pitchInput" required>
+
+        <label for="yawInput">Chiều ngang (Yaw)</label>
+        <input type="number" step="0.1" id="yawInput" required>
+
+        <button type="submit">THÊM HÌNH ẢNH</button><br><br>
+    </form>
+    <script src="~/js/ADD.js"></script>
+
+    <h1>Danh sách hình ảnh</h1>
+    <table id="ImageTable">
+        <thead>
+            <tr>
+                <th>ID Hình ảnh </th>
+                <th>Tên hình ảnh</th>
+                <th>Tiêu đề</th>
+                <th>Đường dẫn của hình ảnh</th>
+                <th>Chiều dọc (Pitch)</th>
+                <th>Chiều ngang (Yaw)</th>
+                <th>Lựa chọn</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <div id="editTable">
+        <input type="text" id="editIdScene" placeholder="ID Hình ảnh">
+        <input type="text" id="editNameScene" placeholder="Tên hình ảnh">
+        <input type="text" id="editTitle" placeholder="Hình ảnh được truy cập">
+        <input type="text" id="editLink" placeholder="Đường dẫn của hình ảnh">
+        <input type="number" id="editPitch" placeholder="Chiều dọc (Pitch)">
+        <input type="number" id="editYaw" placeholder="Chiều ngang (Yaw)">
+        <button id="saveChangesBtn">Lưu thay đổi</button>
+    </div>
+    <script src="~/js/ManageImage.js"></script>
+   
+</body>
+</html>
+

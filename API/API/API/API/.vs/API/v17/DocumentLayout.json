@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40F0EF-78F7-4B32-A010-A90C66017BDB}|API.csproj|c:\\users\\lu456\\onedrive\\ta\u0300i li\u00EA\u0323u\\da_old\\da_chuyen_nganh\\websitequanlybando360_mdt\\api\\api\\api\\api\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE40F0EF-78F7-4B32-A010-A90C66017BDB}|API.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40F0EF-78F7-4B32-A010-A90C66017BDB}|API.csproj|c:\\users\\lu456\\onedrive\\ta\u0300i li\u00EA\u0323u\\da_old\\da_chuyen_nganh\\websitequanlybando360_mdt\\api\\api\\api\\api\\wwwroot\\js\\add_hsp.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FE40F0EF-78F7-4B32-A010-A90C66017BDB}|API.csproj|solutionrelative:wwwroot\\js\\add_hsp.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40F0EF-78F7-4B32-A010-A90C66017BDB}|API.csproj|c:\\users\\lu456\\onedrive\\ta\u0300i li\u00EA\u0323u\\da_old\\da_chuyen_nganh\\websitequanlybando360_mdt\\api\\api\\api\\api\\wwwroot\\js\\managehotspot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FE40F0EF-78F7-4B32-A010-A90C66017BDB}|API.csproj|solutionrelative:wwwroot\\js\\managehotspot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40F0EF-78F7-4B32-A010-A90C66017BDB}|API.csproj|c:\\users\\lu456\\onedrive\\ta\u0300i li\u00EA\u0323u\\da_old\\da_chuyen_nganh\\websitequanlybando360_mdt\\api\\api\\api\\api\\views\\shared\\viewhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE40F0EF-78F7-4B32-A010-A90C66017BDB}|API.csproj|solutionrelative:views\\shared\\viewhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40F0EF-78F7-4B32-A010-A90C66017BDB}|API.csproj|c:\\users\\lu456\\onedrive\\ta\u0300i li\u00EA\u0323u\\da_old\\da_chuyen_nganh\\websitequanlybando360_mdt\\api\\api\\api\\api\\wwwroot\\js\\toado.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FE40F0EF-78F7-4B32-A010-A90C66017BDB}|API.csproj|solutionrelative:wwwroot\\js\\toado.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40F0EF-78F7-4B32-A010-A90C66017BDB}|API.csproj|c:\\users\\lu456\\onedrive\\ta\u0300i li\u00EA\u0323u\\da_old\\da_chuyen_nganh\\websitequanlybando360_mdt\\api\\api\\api\\api\\wwwroot\\js\\manageimage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FE40F0EF-78F7-4B32-A010-A90C66017BDB}|API.csproj|solutionrelative:wwwroot\\js\\manageimage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ADD_HSP.js",
+              "DocumentMoniker": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\wwwroot\\js\\ADD_HSP.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\ADD_HSP.js",
+              "ToolTip": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\wwwroot\\js\\ADD_HSP.js",
+              "RelativeToolTip": "wwwroot\\js\\ADD_HSP.js",
+              "ViewState": "AQIAACMAAAAAAAAAAAAswEEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-10T16:04:02.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageHotSpot.js",
+              "DocumentMoniker": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\wwwroot\\js\\ManageHotSpot.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\ManageHotSpot.js",
+              "ToolTip": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\wwwroot\\js\\ManageHotSpot.js",
+              "RelativeToolTip": "wwwroot\\js\\ManageHotSpot.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-10T15:45:35.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\Views\\Shared\\ViewHome.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\ViewHome.cshtml",
+              "ToolTip": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\Views\\Shared\\ViewHome.cshtml",
+              "RelativeToolTip": "Views\\Shared\\ViewHome.cshtml",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAAAKIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T14:29:24.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageImage.js",
+              "DocumentMoniker": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\wwwroot\\js\\ManageImage.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\ManageImage.js",
+              "ToolTip": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\wwwroot\\js\\ManageImage.js",
+              "RelativeToolTip": "wwwroot\\js\\ManageImage.js",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-10T14:12:38.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ToaDo.js",
+              "DocumentMoniker": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\wwwroot\\js\\ToaDo.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\ToaDo.js",
+              "ToolTip": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\wwwroot\\js\\ToaDo.js",
+              "RelativeToolTip": "wwwroot\\js\\ToaDo.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-10T13:43:39.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lu456\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\DA_OLD\\DA_CHuyen_Nganh\\WebsiteQuanLyBanDo360_MDT\\API\\API\\API\\API\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADEBAAAAAAAAAAAIwCMBAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T12:27:23.434Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

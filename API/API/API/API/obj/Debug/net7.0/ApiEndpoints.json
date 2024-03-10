@@ -1,0 +1,318 @@
+[
+  {
+    "ContainingType": "API.Controllers.api.AccountsController",
+    "Method": "dangNhapTaiKhoan",
+    "RelativePath": "api/Accounts/dangNhapTaiKhoan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginsModel",
+        "Type": "Libs.Entity.LoginsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.AccountsController",
+    "Method": "deleteTaiKhoan",
+    "RelativePath": "api/Accounts/DeleteAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginsModel",
+        "Type": "Libs.Entity.LoginsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.AccountsController",
+    "Method": "insertTaiKhoan",
+    "RelativePath": "api/Accounts/insertAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginsModel",
+        "Type": "Libs.Entity.LoginsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.AccountsController",
+    "Method": "GetImageLists",
+    "RelativePath": "api/Accounts/listAccount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.AccountsController",
+    "Method": "updateTaiKhoan",
+    "RelativePath": "api/Accounts/updateAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginsModel",
+        "Type": "Libs.Entity.LoginsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.DiadiemController",
+    "Method": "deleteDiadiem",
+    "RelativePath": "api/Diadiem/DeleteDiadiems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "diadiemModel",
+        "Type": "Libs.Entity.DiadiemModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.DiadiemController",
+    "Method": "insertdd",
+    "RelativePath": "api/Diadiem/inserDiadiem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "diadiemModel",
+        "Type": "Libs.Entity.DiadiemModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.DiadiemController",
+    "Method": "Getdd",
+    "RelativePath": "api/Diadiem/listDiadiems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.DiadiemController",
+    "Method": "updateDiadiem",
+    "RelativePath": "api/Diadiem/updateDiadiem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "diadiemModel",
+        "Type": "Libs.Entity.DiadiemModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.HotSpotsController",
+    "Method": "deleteHotSpot",
+    "RelativePath": "api/HotSpots/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idHsp",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.HotSpotsController",
+    "Method": "insertHotSpot",
+    "RelativePath": "api/HotSpots/insertHotSpot",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotSpotModel",
+        "Type": "Libs.Entity.HotSpotModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.HotSpotsController",
+    "Method": "GetHotSpotLists",
+    "RelativePath": "api/HotSpots/listHotSpots",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.HotSpotsController",
+    "Method": "updateHotSpot",
+    "RelativePath": "api/HotSpots/updateHotSpot",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotSpotModel",
+        "Type": "Libs.Entity.HotSpotModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.ImagesController",
+    "Method": "deleteImage",
+    "RelativePath": "api/Images/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDScence",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.ImagesController",
+    "Method": "GetScenesWithHotSpots",
+    "RelativePath": "api/Images/GetAllScenesWithHotSpots",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.ImagesController",
+    "Method": "insertImage",
+    "RelativePath": "api/Images/insertImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imagesModel",
+        "Type": "Libs.Entity.ImagesModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.ImagesController",
+    "Method": "GetImageLists",
+    "RelativePath": "api/Images/listImages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.ImagesController",
+    "Method": "updateImage",
+    "RelativePath": "api/Images/updateImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageModel",
+        "Type": "Libs.Entity.ImagesModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.KhuVucController",
+    "Method": "deleteKhuvucs",
+    "RelativePath": "api/KhuVuc/DaleteKhuvuc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "khuvucsModel",
+        "Type": "Libs.Entity.KhuvucsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.KhuVucController",
+    "Method": "inserKhuvucs",
+    "RelativePath": "api/KhuVuc/insertKhuvuc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "khuvucsModel",
+        "Type": "Libs.Entity.KhuvucsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.KhuVucController",
+    "Method": "Getkv",
+    "RelativePath": "api/KhuVuc/listKhuvucs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.api.KhuVucController",
+    "Method": "updateDiadiem",
+    "RelativePath": "api/KhuVuc/updateKhuvuc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "khuvucsModel",
+        "Type": "Libs.Entity.KhuvucsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

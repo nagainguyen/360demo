@@ -29,4 +29,8 @@
     <ProjectReference Include="..\Libs\Libs.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\python\" />
+  </ItemGroup>
+
 </Project>

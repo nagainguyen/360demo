@@ -1,69 +1,79 @@
 ﻿
-function handleSearchInput(searchTerm) {
-    console.log('Search Term: ' + searchTerm);
-    //viet chuc nang tim kiem trong nay
-}
+//function handlesearchinput(searchterm) {
+//    console.log('search term: ' + searchterm);
+//    //viet chuc nang tim kiem trong nay
+//}
 
-var pitch, yaw, hfov;
 
-window.addEventListener('DOMContentLoaded', function () {
-    var panorama = pannellum.viewer('panorama', {
+window.addeventlistener('domcontentloaded', function () {
+    var viewer = pannellum.viewer('panorama', {
         "type": "equirectangular",
         "panorama": "./Image/river.jpg",
-        "autoLoad": true,
+        "autoload": true,
     });
-    panorama.on('rightclick', function (e) {
 
-        var hfov1 = panorama.getConfig().hfov;
-        var horizontalFov = 2 * Math.atan(Math.tan(hfov1 * (Math.PI / 180) / 2) * (panoramaWidth / panoramaHeight)) * (180 / Math.PI);
-        hfov = horizontalFov;
-        console.log('HFOV: ' + hfov.toFixed(2)); 
+
+
+    viewer.on('mousedown', function (event) {
+        // coords[0] is pitch, coords[1] is yaw
+        var coords = viewer.mouseEventToCoords(event);
+        // convert to image coordinates
+        var x = (coords[1] / 360 + 0.5) * imageWidthInPixels;
+        var y = (0.5 - coords[0] / 180) * imageHeightInPixels;
+        console.log(x, y);
     });
-    panorama.getContainer().addEventListener('contextmenu', function (e) {
-        e.preventDefault();
-        var mouseX, mouseY;
+//    panorama.on('rightclick', function (e) {
 
-        if (e.mouseEvent) {
-            mouseX = e.mouseEvent.clientX;
-            mouseY = e.mouseEvent.clientY;
-        } else if (window.event) {
-            mouseX = window.event.clientX;
-            mouseY = window.event.clientY;
-        }
+//        var hfov1 = panorama.getconfig().hfov;
+//        var horizontalfov = 2 * math.atan(math.tan(hfov1 * (math.pi / 180) / 2) * (panoramawidth / panoramaheight)) * (180 / math.pi);
+//        hfov = horizontalfov;
+//        console.log('hfov: ' + hfov.tofixed(2)); 
+//    });
+//    panorama.getcontainer().addeventlistener('contextmenu', function (e) {
+//        e.preventdefault();
+//        var mousex, mousey;
 
-        if (mouseX !== undefined && mouseY !== undefined) {
-            var panoramaWidth = panorama.getContainer().clientWidth;
-            var panoramaHeight = panorama.getContainer().clientHeight;
-            pitch = (mouseY / panoramaHeight) * 180 - 90;
-            yaw = (mouseX / panoramaWidth) * 360 - 180;
+//        if (e.mouseevent) {
+//            mousex = e.mouseevent.clientx;
+//            mousey = e.mouseevent.clienty;
+//        } else if (window.event) {
+//            mousex = window.event.clientx;
+//            mousey = window.event.clienty;
+//        }
 
-            console.log('Pitch: ' + pitch.toFixed(2) + ' Yaw: ' + yaw.toFixed(2));
+//        if (mousex !== undefined && mousey !== undefined) {
+//            var panoramawidth = panorama.getcontainer().clientwidth;
+//            var panoramaheight = panorama.getcontainer().clientheight;
+//            pitch = (mousey / panoramaheight) * 180 - 90;
+//            yaw = (mousex / panoramawidth) * 360 - 180;
 
-            panorama.addHotSpot({
-                "hfov": hfov,
-                "pitch": pitch,
-                "yaw": yaw,
-                "cssClass": "custom-hotspot",
-                "createTooltipFunc": function (div, args) {
-                    var searchBox = document.createElement('input');
-                    searchBox.setAttribute('type', 'text');
-                    searchBox.setAttribute('placeholder', 'Tìm kiếm...');
-                    searchBox.addEventListener('contextmenu', function (e) {
-                        e.stopPropagation();
-                    });
-                    searchBox.addEventListener('keydown', function (e) {
-                        if (e.key === 'Enter') {
-                            var searchTerm = searchBox.value;
-                            searchBox.style.display = 'none';
-                            handleSearchInput(searchTerm);
-                        }
-                    });
+//            console.log('pitch: ' + pitch.tofixed(2) + ' yaw: ' + yaw.tofixed(2));
 
-                    div.appendChild(searchBox);
-                }
-            });
-        } else {
-            console.log('Không thể lấy thông tin sự kiện chuột.');
-        }
-    });
+//            panorama.addhotspot({
+//                "hfov": hfov,
+//                "pitch": pitch,
+//                "yaw": yaw,
+//                "cssclass": "custom-hotspot",
+//                "createtooltipfunc": function (div, args) {
+//                    var searchbox = document.createelement('input');
+//                    searchbox.setattribute('type', 'text');
+//                    searchbox.setattribute('placeholder', 'tìm kiếm...');
+//                    searchbox.addeventlistener('contextmenu', function (e) {
+//                        e.stoppropagation();
+//                    });
+//                    searchbox.addeventlistener('keydown', function (e) {
+//                        if (e.key === 'enter') {
+//                            var searchterm = searchbox.value;
+//                            searchbox.style.display = 'none';
+//                            handlesearchinput(searchterm);
+//                        }
+//                    });
+
+//                    div.appendchild(searchbox);
+//                }
+//            });
+//        } else {
+//            console.log('không thể lấy thông tin sự kiện chuột.');
+//        }
+//    });
 });
